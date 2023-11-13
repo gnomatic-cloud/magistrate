@@ -60,7 +60,7 @@ require (
 	github.com/hashicorp/go-uuid v1.0.3
 	github.com/hashicorp/go-version v1.2.1
 	github.com/hashicorp/golang-lru v0.5.4
-	github.com/hashicorp/hcdiag v0.5.1
+	github.com/hashicorp/hcdiag v0.5.2
 	github.com/hashicorp/hcl v1.0.0
 	github.com/hashicorp/hcp-scada-provider v0.2.3
 	github.com/hashicorp/hcp-sdk-go v0.55.0
