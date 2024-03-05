@@ -29,8 +29,8 @@ require (
 	github.com/envoyproxy/go-control-plane/xdsmatcher v0.0.0-20230524161521-aaaacbfbe53e
 	github.com/fatih/color v1.14.1
 	github.com/fsnotify/fsnotify v1.6.0
-	github.com/go-openapi/runtime v0.25.0
-	github.com/go-openapi/strfmt v0.21.3
+	github.com/go-openapi/runtime v0.27.2
+	github.com/go-openapi/strfmt v0.22.0
 	github.com/google/go-cmp v0.5.9
 	github.com/google/gofuzz v1.2.0
 	github.com/google/pprof v0.0.0-20210720184732-4bb14d4b1be1
@@ -95,11 +95,11 @@ require (
 	github.com/rboyer/safeio v0.2.3
 	github.com/ryanuber/columnize v2.1.2+incompatible
 	github.com/shirou/gopsutil/v3 v3.22.9
-	github.com/stretchr/testify v1.8.3
+	github.com/stretchr/testify v1.8.4
 	go.etcd.io/bbolt v1.3.7
-	go.opentelemetry.io/otel v1.16.0
-	go.opentelemetry.io/otel/metric v1.16.0
-	go.opentelemetry.io/otel/sdk v1.16.0
+	go.opentelemetry.io/otel v1.17.0
+	go.opentelemetry.io/otel/metric v1.17.0
+	go.opentelemetry.io/otel/sdk v1.17.0
 	go.opentelemetry.io/otel/sdk/metric v0.39.0
 	go.opentelemetry.io/proto/otlp v0.19.0
 	go.uber.org/goleak v1.1.10
@@ -107,8 +107,8 @@ require (
 	golang.org/x/exp v0.0.0-20230321023759-10a507213a29
 	golang.org/x/net v0.17.0
 	golang.org/x/oauth2 v0.7.0
-	golang.org/x/sync v0.2.0
-	golang.org/x/sys v0.13.0
+	golang.org/x/sync v0.6.0
+	golang.org/x/sys v0.14.0
 	golang.org/x/time v0.3.0
 	google.golang.org/genproto/googleapis/rpc v0.0.0-20230526203410-71b5a4ffd15e
 	google.golang.org/grpc v1.56.3
@@ -142,7 +142,7 @@ require (
 	github.com/Microsoft/go-winio v0.6.1 // indirect
 	github.com/agext/levenshtein v1.2.3 // indirect
 	github.com/apparentlymart/go-textseg/v13 v13.0.0 // indirect
-	github.com/asaskevich/govalidator v0.0.0-20210307081110-f21760c49a8d // indirect
+	github.com/asaskevich/govalidator v0.0.0-20230301143203-a9d515a09cc2 // indirect
 	github.com/benbjohnson/immutable v0.4.0 // indirect
 	github.com/beorn7/perks v1.0.1 // indirect
 	github.com/bgentry/speakeasy v0.1.0 // indirect
@@ -163,17 +163,17 @@ require (
 	github.com/dimchansky/utfbom v1.1.1 // indirect
 	github.com/emicklei/go-restful/v3 v3.10.1 // indirect
 	github.com/envoyproxy/protoc-gen-validate v1.0.1 // indirect
-	github.com/go-logr/logr v1.2.4 // indirect
+	github.com/go-logr/logr v1.3.0 // indirect
 	github.com/go-logr/stdr v1.2.2 // indirect
 	github.com/go-ole/go-ole v1.2.6 // indirect
-	github.com/go-openapi/analysis v0.21.4 // indirect
-	github.com/go-openapi/errors v0.20.3 // indirect
-	github.com/go-openapi/jsonpointer v0.19.5 // indirect
-	github.com/go-openapi/jsonreference v0.20.0 // indirect
-	github.com/go-openapi/loads v0.21.2 // indirect
-	github.com/go-openapi/spec v0.20.8 // indirect
-	github.com/go-openapi/swag v0.22.3 // indirect
-	github.com/go-openapi/validate v0.22.1 // indirect
+	github.com/go-openapi/analysis v0.22.2 // indirect
+	github.com/go-openapi/errors v0.21.0 // indirect
+	github.com/go-openapi/jsonpointer v0.20.2 // indirect
+	github.com/go-openapi/jsonreference v0.20.4 // indirect
+	github.com/go-openapi/loads v0.21.5 // indirect
+	github.com/go-openapi/spec v0.20.14 // indirect
+	github.com/go-openapi/swag v0.22.9 // indirect
+	github.com/go-openapi/validate v0.23.0 // indirect
 	github.com/go-ozzo/ozzo-validation v3.6.0+incompatible // indirect
 	github.com/gogo/protobuf v1.3.2 // indirect
 	github.com/golang-jwt/jwt/v4 v4.2.0 // indirect
@@ -183,7 +183,7 @@ require (
 	github.com/google/btree v1.0.1 // indirect
 	github.com/google/gnostic v0.5.7-v3refs // indirect
 	github.com/google/go-querystring v1.0.0 // indirect
-	github.com/google/uuid v1.3.0 // indirect
+	github.com/google/uuid v1.5.0 // indirect
 	github.com/googleapis/enterprise-certificate-proxy v0.2.3 // indirect
 	github.com/googleapis/gax-go/v2 v2.7.1 // indirect
 	github.com/gophercloud/gophercloud v0.3.0 // indirect
@@ -251,9 +251,9 @@ require (
 	github.com/vmware/govmomi v0.18.0 // indirect
 	github.com/yusufpapurcu/wmi v1.2.2 // indirect
 	github.com/zclconf/go-cty v1.11.1 // indirect
-	go.mongodb.org/mongo-driver v1.11.0 // indirect
+	go.mongodb.org/mongo-driver v1.13.1 // indirect
 	go.opencensus.io v0.24.0 // indirect
-	go.opentelemetry.io/otel/trace v1.16.0 // indirect
+	go.opentelemetry.io/otel/trace v1.17.0 // indirect
 	go.uber.org/atomic v1.9.0 // indirect
 	golang.org/x/lint v0.0.0-20210508222113-6edffad5e616 // indirect
 	golang.org/x/mod v0.10.0 // indirect
