@@ -32,7 +32,7 @@ jobs:
       # https://github.com/hashicorp/actions-set-product-version
       - name: set product version
         id: set-product-version
-        uses: hashicorp/actions-set-product-version@v1
+        uses: hashicorp/actions-set-product-version@v2
       - name: get product version
         id: get-product-version
         run: |
