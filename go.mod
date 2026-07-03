@@ -1,6 +1,6 @@
 module github.com/hashicorp/consul
 
-go 1.20
+go 1.25.0
 
 replace (
 	github.com/hashicorp/consul/api => ./api
@@ -109,7 +109,7 @@ require (
 	golang.org/x/oauth2 v0.7.0
 	golang.org/x/sync v0.2.0
 	golang.org/x/sys v0.13.0
-	golang.org/x/time v0.3.0
+	golang.org/x/time v0.15.0
 	google.golang.org/genproto/googleapis/rpc v0.0.0-20230526203410-71b5a4ffd15e
 	google.golang.org/grpc v1.56.3
 	google.golang.org/protobuf v1.30.0
